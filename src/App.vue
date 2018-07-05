@@ -1,19 +1,20 @@
 <template>
-  <div id="app">
-    <sidebar-left id='sb-left'/>
+  <div class="app">
     <nav class="cl-effect">
-      <router-link class='navi' to="/">Home</router-link>
-      <router-link class='navi' to="/projects">Work</router-link>
-      <router-link class='navi' to="/music">Reinsurance</router-link>
-      <router-link class='navi' to="/about">About</router-link>
+      <router-link to="/">Home</router-link>
+      <router-link to="/projects">Work</router-link>
+      <router-link to="/music">Reinsurance</router-link>
+      <router-link to="/about">About</router-link>
     </nav>
-    <div id=view>
+    <div class=view>
       <router-view/>
     </div>
 
-    <sidebar-right id='sb-right'/>
+    <sidebar-left class='sidebar-left'/>
 
-    <app-footer id='app-footer'/>
+    <sidebar-right class='sidebar-right'/>
+
+    <app-footer class='app-footer'/>
   </div>
 </template>
 

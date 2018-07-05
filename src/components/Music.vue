@@ -1,5 +1,5 @@
 <template>
-    <div id='music'>
+    <div class='music'>
         {{ this.name }} coming soon...
     </div>
 </template>
@@ -19,9 +19,9 @@ export default {
 </script>
 
 <style scoped>
-#music {
-    padding: 20px;
+.music {
+    padding: 2em;
     font-size: 150%;
-    font-weight: bold;
+    letter-spacing: 1px;
 }
 </style>

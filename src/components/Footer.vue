@@ -1,5 +1,5 @@
 <template>
-  <div id='app-footer'>
+  <div class='app-footer'>
       <p>Copyright {{ date }} {{ author }}</p>
   </div>
 </template>
@@ -22,11 +22,12 @@ export default {
 </script>
 
 <style scoped>
-#app-footer {
-    padding: 10px;
+.app-footer {
+    padding: 1em;
+    background: #222;
 }
 
 p {
-  color: #005858;
+  color: #DDD;
 }
 </style>

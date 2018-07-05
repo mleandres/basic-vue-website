@@ -27,9 +27,5 @@ export default {
 </script>
 
 <style scoped>
-p {
-  padding: 10px;
-  letter-spacing: 1px;
-  color: darkcyan;
-}
+
 </style>
