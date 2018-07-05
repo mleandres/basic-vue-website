@@ -4,7 +4,7 @@
 
 ## Description
 Trying out some basic Vue routing and link animations + component nesting.
-Restricting myself to using CSS grid
+Resizing the page dynamically changes layout of grid objects.
 
 ## Next Steps
 - Make resizing the page not break everything :)
