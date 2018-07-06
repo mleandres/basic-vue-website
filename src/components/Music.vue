@@ -13,7 +13,7 @@ export default {
     }
   },
   created: () => {
-    document.title = 'Music'
+    document.title = this.name
   }
 }
 </script>
