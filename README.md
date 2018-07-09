@@ -24,4 +24,6 @@ npm install
 # serve with hot reload at localhost:8080
 npm run dev
 
-Boilerplate used is vue [webpack](http://vuejs-templates.github.io/webpack/)
+Boilerplate used is vue [webpack][1]
+
+[1]: http://vuejs-templates.github.io/webpack/
