@@ -18,7 +18,7 @@
 .app {
   font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-fnt-smoothing: grayscale;
   text-align: center;
   color: #005858;
   height: 100%;
@@ -27,7 +27,7 @@
 p {
   padding: 0.1em;
   letter-spacing: 1px;
-  color: #007373;
+  color: darkcyan;
 }
 
 nav {
