@@ -16,7 +16,6 @@ export default {
     return {
       stuff: [
         {name: 'Google', link: 'https://www.google.com'},
-        {name: 'Something Good', link: 'https://soundcloud.com/yifan-wu'},
         {name: 'Spheres', link: 'https://mleandres.github.io/'}
       ]
     }
